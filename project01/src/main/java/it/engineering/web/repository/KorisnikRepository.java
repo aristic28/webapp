@@ -18,4 +18,5 @@ public class KorisnikRepository {
 		em.close();
 		return korisnik;
 	}
+	
 }

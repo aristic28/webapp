@@ -70,4 +70,10 @@ public class Proizvodjac implements Serializable {
 		this.mesto = mesto;
 	}
 
+	@Override
+	public String toString() {
+		return "Proizvodjac [pib=" + pib + ", adresa=" + adresa + ", maticniBroj=" + maticniBroj + ", mesto=" + mesto
+				+ "]";
+	}
+
 }

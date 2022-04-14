@@ -74,4 +74,11 @@ public class Mesto implements Serializable {
 		return proizvodjac;
 	}
 
+
+	@Override
+	public String toString() {
+		return "Mesto [pttBroj=" + pttBroj + ", naziv=" + naziv + ", proizvodjacs=" + proizvodjacs + "]";
+	}
+	
+
 }
